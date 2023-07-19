@@ -39,6 +39,7 @@ func main() {
 		WithCommandLog:              true,
 		AllowFromGroup:              true,
 		AllowFromPrivate:            true,
+		OnlyFromSelf: true,
 		CommandResponseCacheTimeout: time.Minute * 15,
 		SendMessageTimeout:          time.Second * 15,
 	}
